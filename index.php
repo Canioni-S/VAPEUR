@@ -14,14 +14,18 @@
 
     <!-- TOP NAVIGATION BAR -->
     <div id="myTopNav" class="TopNavContainer">
-        <div class="LeftTopNav">
-            <div class="MenuBurgerContainer" onclick="Burgerfunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
+        <div class="MenuBurgerContainer" onclick="Burgerfunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="LogoTopNav">
+            <img class="LogoImg" src="./images/Logo/ImageVapeurLogo.png" alt="Logo_du_site">
+            <img class="LogoTxt" src="./images/Logo/TextVapeurLogo.png" alt="Logo_du_site">
+        </div>
+        <div class="RightTopNav">
             <a href="#" class="TopNavItems"><i class="fas fa-store"></i>
-                <h3>store</h3>
+                <h3>my store</h3>
             </a>
             <a href="./form.php" class="TopNavItems"><i class="fas fa-gamepad"></i>
                 <h3>my games</h3>
@@ -32,153 +36,156 @@
         </div>
     </div>
 
-    <!-- LEFT NAVIGATION BAR -->
-    <div id="myLeftNav" class="LeftNavContainer">
-        <div class="LeftNavItems">
-            <a class="dropdown-btn" href="#">
-                <h3>discovery queues &#9660;</h3>
-            </a>
-            <div class="dropdown-container">
-                <a href="#">recommendations</a>
-                <a href="#">new release</a>
-            </div>
-        </div>
-        <div class="LeftNavItems">
-            <a class="dropdown-btn" href="#">
-                <h3>browse categories &#9660;</h3>
-            </a>
-            <div class="dropdown-container">
-                <a href="#">top sellers</a>
-                <a href="#">upcoming</a>
-                <a href="#">specials offers</a>
-                <a href="#">more categories</a>
-            </div>
-        </div>
-        <div class="LeftNavItems">
-            <a class="dropdown-btn" href="#">
-                <h3>browse by genre &#9660;</h3>
-            </a>
-            <div class="dropdown-container">
-                <a href="#">free to play</a>
-                <a href="#">early access</a>
-                <a href="#">action</a>
-                <a href="#">adventure</a>
-                <a href="#">casual</a>
-                <a href="#">indie</a>
-                <a href="#">more genre</a>
-            </div>
-        </div>
-    </div>
-
     <div class="MainContainer">
+
+        <!-- LEFT NAVIGATION BAR -->
+
+        <div id="myLeftNav" class="LeftNavContainer">
+            <div class="LeftNavItems">
+                <a class="dropdown-btn" href="#">
+                    <h3>discovery queues &#9660;</h3>
+                </a>
+                <div class="dropdown-container">
+                    <a href="#">recommendations</a>
+                    <a href="#">new release</a>
+                </div>
+            </div>
+            <div class="LeftNavItems">
+                <a class="dropdown-btn" href="#">
+                    <h3>browse categories &#9660;</h3>
+                </a>
+                <div class="dropdown-container">
+                    <a href="#">top sellers</a>
+                    <a href="#">upcoming</a>
+                    <a href="#">specials offers</a>
+                    <a href="#">more categories</a>
+                </div>
+            </div>
+            <div class="LeftNavItems">
+                <a class="dropdown-btn" href="#">
+                    <h3>browse by genre &#9660;</h3>
+                </a>
+                <div class="dropdown-container">
+                    <a href="#">free to play</a>
+                    <a href="#">early access</a>
+                    <a href="#">action</a>
+                    <a href="#">adventure</a>
+                    <a href="#">casual</a>
+                    <a href="#">indie</a>
+                    <a href="#">more genre</a>
+                </div>
+            </div>
+        </div>
+
         <!-- FEATURED & RECOMMENDED CARROUSEL -->
-        <h2>featured & recommended</h2>
         <div class="CarrouselContainer">
+            <h2>featured & recommended</h2>
+            <div class="CarrouselFeatContainer">
+                <button class="CarrouselLeftBtn" onclick="plusSlides(-1)">&#10094;</button>
 
-            <!-- CARROUSEL 1 SLIDE 1 -->
-            <div class="Carrousel">
-                <div class="CarrouselLeftContent">
-                    <img src="./images/age_of_empire_IV/age_of_empire_IV.jpg" alt="Age_of_empire_4">
-                </div>
-                <div class="CarrouselRightContent">
-                    <div class="CarrouselRightTopContent">
-                        <div class="GameMiniImages"><img src="./images/age_of_empire_IV/age_of_empire_IV_min1.jpg" alt="Age_of_empire_4_ingame_image"></div>
-                        <div class="GameMiniImages"><img src="./images/age_of_empire_IV/age_of_empire_IV_min2.jpg" alt="Age_of_empire_4_ingame_image"></div>
-                        <div class="GameMiniImages"><img src="./images/age_of_empire_IV/age_of_empire_IV_min3.jpg" alt="Age_of_empire_4_ingame_image"></div>
-                        <div class="GameMiniImages"><img src="./images/age_of_empire_IV/age_of_empire_IV_min4.jpg" alt="Age_of_empire_4_ingame_image"></div>
+                <!-- CARROUSEL 1 SLIDE 1 -->
+                <div class="Carrousel">
+                    <div class="CarrouselLeftContent">
+                        <img src="./images/age_of_empire_IV/age_of_empire_IV.jpg" alt="Age_of_empire_4">
                     </div>
-                    <div class="CarrouselRightBotContent">
-                        <p class="GameDescription">Age of Empires IV sur PC est un jeu de stratégie qui appartient à la
-                            célèbre saga de stratégie. Il vous sera possible de prendre part à des batailles historiques
-                            avec des armées possédant leurs propres caractéristiques.</p>
-                        <button>price & buy the game</button>
+                    <div class="CarrouselRightContent">
+                        <div class="CarrouselRightTopContent">
+                            <div class="GameMiniImages"><img src="./images/age_of_empire_IV/age_of_empire_IV_min1.jpg" alt="Age_of_empire_4_ingame_image"></div>
+                            <div class="GameMiniImages"><img src="./images/age_of_empire_IV/age_of_empire_IV_min2.jpg" alt="Age_of_empire_4_ingame_image"></div>
+                            <div class="GameMiniImages"><img src="./images/age_of_empire_IV/age_of_empire_IV_min3.jpg" alt="Age_of_empire_4_ingame_image"></div>
+                            <div class="GameMiniImages"><img src="./images/age_of_empire_IV/age_of_empire_IV_min4.jpg" alt="Age_of_empire_4_ingame_image"></div>
+                        </div>
+                        <div class="CarrouselRightBotContent">
+                            <p class="GameDescription">Age of Empires IV sur PC est un jeu de stratégie qui appartient à la
+                                célèbre saga de stratégie. Il vous sera possible de prendre part à des batailles historiques
+                                avec des armées possédant leurs propres caractéristiques.</p>
+                            <button>price & buy the game</button>
+                        </div>
                     </div>
                 </div>
+
+                <!-- CARROUSEL 1 SLIDE 2 -->
+                <div class="Carrousel">
+                    <div class="CarrouselLeftContent">
+                        <img src="./images/battlefield_2042/battlefield_2042.jpg" alt="Battlefield_2042">
+                    </div>
+                    <div class="CarrouselRightContent">
+                        <div class="CarrouselRightTopContent">
+                            <div class="GameMiniImages"><img src="./images/battlefield_2042/battlefield_2042min1.jpg" alt="battlefield_2042_ingame_image"></div>
+                            <div class="GameMiniImages"><img src="./images/battlefield_2042/battlefield_2042min2.jpg" alt="battlefield_2042_ingame_image"></div>
+                            <div class="GameMiniImages"><img src="./images/battlefield_2042/battlefield_2042min3.jpg" alt="battlefield_2042_ingame_image"></div>
+                            <div class="GameMiniImages"><img src="./images/battlefield_2042/battlefield_2042min4.jpg" alt="battlefield_2042_ingame_image"></div>
+                        </div>
+                        <div class="CarrouselRightBotContent">
+                            <p class="GameDescription">Battlefield 2042 est un jeu de tir à la première personne multijoueur
+                                ancré dans un futur dystopique. Deux nations mènent une guerre totale, les Etats-Unis et la
+                                Russie.</p>
+                            <button>price & buy the game</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARROUSEL 1 SLIDE 3 -->
+                <div class="Carrousel">
+                    <div class="CarrouselLeftContent">
+                        <img src="./images/free_to_play/path_of_exiles/path_of_exile.jpg" alt="Path_Of_Exile">
+                    </div>
+                    <div class="CarrouselRightContent">
+                        <div class="CarrouselRightTopContent">
+                            <div class="GameMiniImages"><img src="./images/free_to_play/path_of_exiles/poe_min1.webp" alt="Path_Of_Exile_ingame_image"></div>
+                            <div class="GameMiniImages"><img src="./images/free_to_play/path_of_exiles/poe_min2.jpg" alt="Path_Of_Exile_ingame_image">
+                            </div>
+                            <div class="GameMiniImages"><img src="./images/free_to_play/path_of_exiles/poe_min3.jpg" alt="Path_Of_Exile_ingame_image">
+                            </div>
+                            <div class="GameMiniImages"><img src="./images/free_to_play/path_of_exiles/poe_min4.jpg" alt="Path_Of_Exile_ingame_image">
+                            </div>
+                        </div>
+                        <div class="CarrouselRightBotContent">
+                            <p class="GameDescription">Path of Exile est un jeu de rôle hack'n slash qui vous entraînera
+                                dans un univers post-apocalyptique particulièrement sombre, vous devrez choisir votre
+                                personnage parmi les sept classes différentes. Votre but sera de faire évoluer votre héro en
+                                équipant de nouveaux objets et en améliorant vos compétences.</p>
+                            <button>price & buy the game</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARROUSEL 1 SLIDE 4 -->
+                <div class="Carrousel">
+                    <div class="CarrouselLeftContent">
+                        <img src="./images/gran_turismo_7/gran_turismo_7.jpg" alt="Gran_Turismo_7">
+                    </div>
+                    <div class="CarrouselRightContent">
+                        <div class="CarrouselRightTopContent">
+                            <div class="GameMiniImages"><img src="./images/gran_turismo_7/gt7min1.jpg" alt="Gran_Turismo_7_ingame_image">
+                            </div>
+                            <div class="GameMiniImages"><img src="./images/gran_turismo_7/gt7min2.jpg" alt="Gran_Turismo_7_ingame_image">
+                            </div>
+                            <div class="GameMiniImages"><img src="./images/gran_turismo_7/gt7min3.jpg" alt="Gran_Turismo_7_ingame_image">
+                            </div>
+                            <div class="GameMiniImages"><img src="./images/gran_turismo_7/gt7min4.jpg" alt="Gran_Turismo_7_ingame_image">
+                            </div>
+                        </div>
+                        <div class="CarrouselRightBotContent">
+                            <p class="GameDescription">Gran Turismo 7 est un jeu de simulation automobile sur PlayStation 5
+                                développé par Polyphony Digital et édité par Sony Interactive Entertainment. Il s'agit du
+                                huitième volet principal de la saga de Playstation.</p>
+                            <button>price & buy the game</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="CarrouselRightBtn" onclick="plusSlides(1)">&#10095;</button>
+
             </div>
-
-            <!-- CARROUSEL 1 SLIDE 2 -->
-            <div class="Carrousel">
-                <div class="CarrouselLeftContent">
-                    <img src="./images/battlefield_2042/battlefield_2042.jpg" alt="Battlefield_2042">
-                </div>
-                <div class="CarrouselRightContent">
-                    <div class="CarrouselRightTopContent">
-                        <div class="GameMiniImages"><img src="./images/battlefield_2042/battlefield_2042min1.jpg" alt="battlefield_2042_ingame_image"></div>
-                        <div class="GameMiniImages"><img src="./images/battlefield_2042/battlefield_2042min2.jpg" alt="battlefield_2042_ingame_image"></div>
-                        <div class="GameMiniImages"><img src="./images/battlefield_2042/battlefield_2042min3.jpg" alt="battlefield_2042_ingame_image"></div>
-                        <div class="GameMiniImages"><img src="./images/battlefield_2042/battlefield_2042min4.jpg" alt="battlefield_2042_ingame_image"></div>
-                    </div>
-                    <div class="CarrouselRightBotContent">
-                        <p class="GameDescription">Battlefield 2042 est un jeu de tir à la première personne multijoueur
-                            ancré dans un futur dystopique. Deux nations mènent une guerre totale, les Etats-Unis et la
-                            Russie.</p>
-                        <button>price & buy the game</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CARROUSEL 1 SLIDE 3 -->
-            <div class="Carrousel">
-                <div class="CarrouselLeftContent">
-                    <img src="./images/free_to_play/path_of_exiles/path_of_exile.jpg" alt="Path_Of_Exile">
-                </div>
-                <div class="CarrouselRightContent">
-                    <div class="CarrouselRightTopContent">
-                        <div class="GameMiniImages"><img src="./images/free_to_play/path_of_exiles/poe_min1.webp" alt="Path_Of_Exile_ingame_image"></div>
-                        <div class="GameMiniImages"><img src="./images/free_to_play/path_of_exiles/poe_min2.jpg" alt="Path_Of_Exile_ingame_image">
-                        </div>
-                        <div class="GameMiniImages"><img src="./images/free_to_play/path_of_exiles/poe_min3.jpg" alt="Path_Of_Exile_ingame_image">
-                        </div>
-                        <div class="GameMiniImages"><img src="./images/free_to_play/path_of_exiles/poe_min4.jpg" alt="Path_Of_Exile_ingame_image">
-                        </div>
-                    </div>
-                    <div class="CarrouselRightBotContent">
-                        <p class="GameDescription">Path of Exile est un jeu de rôle hack'n slash qui vous entraînera
-                            dans un univers post-apocalyptique particulièrement sombre, vous devrez choisir votre
-                            personnage parmi les sept classes différentes. Votre but sera de faire évoluer votre héro en
-                            équipant de nouveaux objets et en améliorant vos compétences.</p>
-                        <button>price & buy the game</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CARROUSEL 1 SLIDE 4 -->
-            <div class="Carrousel">
-                <div class="CarrouselLeftContent">
-                    <img src="./images/gran_turismo_7/gran_turismo_7.jpg" alt="Gran_Turismo_7">
-                </div>
-                <div class="CarrouselRightContent">
-                    <div class="CarrouselRightTopContent">
-                        <div class="GameMiniImages"><img src="./images/gran_turismo_7/gt7min1.jpg" alt="Gran_Turismo_7_ingame_image">
-                        </div>
-                        <div class="GameMiniImages"><img src="./images/gran_turismo_7/gt7min2.jpg" alt="Gran_Turismo_7_ingame_image">
-                        </div>
-                        <div class="GameMiniImages"><img src="./images/gran_turismo_7/gt7min3.jpg" alt="Gran_Turismo_7_ingame_image">
-                        </div>
-                        <div class="GameMiniImages"><img src="./images/gran_turismo_7/gt7min4.jpg" alt="Gran_Turismo_7_ingame_image">
-                        </div>
-                    </div>
-                    <div class="CarrouselRightBotContent">
-                        <p class="GameDescription">Gran Turismo 7 est un jeu de simulation automobile sur PlayStation 5
-                            développé par Polyphony Digital et édité par Sony Interactive Entertainment. Il s'agit du
-                            huitième volet principal de la saga de Playstation.</p>
-                        <button>price & buy the game</button>
-                    </div>
-                </div>
-            </div>
-
 
             <!-- CARROUSEL DOTS -->
+            <div class="CarrouselDots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
         </div>
-        <div class="CarrouselDots">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-        </div>
-        <!-- CARROUSEL BOUTTONS -->
-        <button class="CarrouselLeftBtn" onclick="plusSlides(-1)">&#10094;</button>
-        <button class="CarrouselRightBtn" onclick="plusSlides(1)">&#10095;</button>
     </div>
 
 
